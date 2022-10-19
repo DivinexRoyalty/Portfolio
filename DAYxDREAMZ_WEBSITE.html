@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <title>Model Site</title>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" type="text/css" href="style.css" />
+
+        <!--2021-02-02 ebb: The code inside the <head> element is not for display in the web browser, but it holds important information about the website's contents.
+    The text inside the <title> element appears in the top tab of a web browser. The meta elements give instructions for how the browser window will behave, 
+    and the <link> element pulls in a CSS stylesheet from another (external) file you'll save in your website directory. 
+    -->
+    </head>
+    <body>
+        <!--ebb: Here inside the <body> element is where the code for the visible display of a website appears. -->
+        <h1>DAYxDREAMZ Ent.</h1>
+        <!-- ebb: I've commented out some code for a super simple site navigation menu. 
+            For the links to work, we'll need a <p> element to wrap around the contents:
+        <nav class="menuA">
+            <p>
+                <a href="index.html">Home</a> | <a href="starter.html">Starting HTML Example</a> |
+                    <a href="resume.html">Resume</a> | <a href="gallery.html">Gallery</a> | Course
+                Posts 
+            </p>
+        </nav>-->
+        <!--ebb: Site Navigation Menu Code B: You can decide if you want this to be a horizontal or vertical arrangement, and make the bullets disappear using CSS.
+     See https://www.w3schools.com/css/css_navbar.asp
+      -->
+        <nav>
+            <img class="photo" src="images/littleNewt.jpg" alt="pet Japanese firebelly newt" />
+            <ul class="menuB">
+                <li><a href="https://sites.psu.edu/shaunmassblog/">Home</a></li>
+                <li><a href="https://sites.psu.edu/shaunmassblog/reflection/">DISCUSSION FORUMS</a></li>
+                <li><a href="https://sites.psu.edu/shaunmassblog/gallery/">Gallery</a></li>
+                <li><a href="https://sites.psu.edu/shaunmassblog/resume/">Resume</a></li>
+            </ul>
+        </nav>
+        
+      <section>  
+          <h1>We are the new age of entertainment!</h1>
+        <p>Welcome to our <a href="sampleXHTML.html">sample</a> homebase on GitHub Pages!</p>
+      
+      
+  
+        <p>This website is designed to be teh HomeBase for DayxDreamz Ent., an entertainment company I am creating. The link below holds an
+                <dfn>absolute URL</dfn> to the model website that was made first.
+            <a href="https://sites.psu.edu/shaunmassblog/#">aDAYxDREAMZent.</a>. Here is another link for an <dfn>absolute URL</dfn> that 
+            takes you to <a href="https://github.com/DivinexRoyalty">the DayxDreamz Ent. GitHub repository page</a>. If you have any content you would like to see added to these pages, go to the Discussion Forums and leave a comment!</p>
+        <p>This link is an inner page of the premade website. It will direct you to the  <dfn>resume URL</dfn>:
+            <a href="https://sites.psu.edu/shaunmassblog/resume/"> DayxDreamz Ent. Resume</a>.</p>
+          <p>Here is another relative link to <a href="https://www.tiktok.com/@divinexroyalty"> the Entertainment Company TikTok (currently branded as DivinexRoyalty).</a>.</p>
+        <p>This website is designed to be built up to show how throughout my college career I have used the skills I have learned in
+        my college career to inependently create a website that I will be able to proudly show to employers, family members, etc.</p>
+      </section>
+        
+        <section>
+            <!-- ebb: You can make a <section> or a <div> element just to organize different parts of the page.
+      The <section> element should always have a heading element inside <h1>, <h2>, etc. to identify what's here.
+     
+     Using section elements and numbering your heading elements in order helps make your site maximally accessible to people who 
+      read websites with screen readers, braille browsers, and other devices that don't rely exclusively on using your eyes.
+      -->
+            <h2>DayxDreams: The  <dfn>creation</dfn> of next-gen Entertainment</h2>
+            <p> -OUR GOALS-</p>
+            <!-- ebb: Look up what a <dfn> element is for: https://www.w3schools.com/tags/tag_dfn.asp -->
+            <!--ebb: You can write CSS code to change the *way* this is ordered, from numbers to letters or symbols, for example. -->
+            <ol>
+                <li>Create media that the community can enjoy and create a connection to</li>
+                <li>Always make media with a purpose</li>
+                <li>Never strive for anything less than our potential</li>
+                
+            </ol>
+            <h3><strong>-ABOUT US-</strong></h3>
+            <p>This link will take you to the<a href="https://sites.psu.edu/shaunmassblog/about/">ABOUT US</a> page that was previously created before the creation of this website.</p>
+            
+        </section>
+        <section>
+            <h2>-The Team-</h2>
+            <ul>
+                <li>CEO and Founder: Shaun Massenburg</li>
+                <li>Current Penn State sophomore</li>
+                <li>Major- Digital Media Arts and Technology (DIGIT)</li>
+            </ul>
+        </section>
+        <section>
+            <h2>Introducing images</h2>
+            <p>Images can be tricky to format. First let's just include them on the website. In your code, you point to an image file in your file directory
+                to make it appear on the page when it is published.</p>
+            <p>The <code>img</code> element is the basic code for including an image file on your page. The <code>@src</code> attribute points to a filepath
+                to your image. The <code>@alt</code> attribute provides a text description for screen readers, helping your images to be accessible to non-sighted readers
+                and also to assist with search retrievals (say, google searches) by providing some context of what's in the image. 
+                Writing code on a site to assist with search retrieval is called <dfn>Search Engine Optimization (SEO)</dfn>.
+            </p>
+            <p>Other code is here for styling and blocking on the page. A <code>figure</code> element is intended to help organize images and captions in a 
+            little nested structure, that makes it convenient to style for proportion on the page. I am also adding a <code>@class</code> attribute to help
+            me with styling different kinds of images (photos vs. small icons on my site). I write <a href="style.css">CSS code</a> to find elements with a <code>class="photo"</code>
+            and style them all the same way, and I put that code in a separate file so it can handle styling the same way across all the pages on my
+            website. I link that CSS stylesheet to my HTML files up in the <code>head</code> element. <em>Can you find the CSS <code>link</code> line in this file?</em></p>
+            
+            <figure class="photoGallery">
+                <img class="photo" src="images/littleNewt.jpg" alt="pet Japanese firebelly newt" />
+                <figcaption>Photo of my pet firebelly newt.</figcaption>
+            </figure>
+            <figure>
+                <img src="images/cockatoo.jpg" alt="Dr. B's firebelly newt image" />
+                <figcaption>Image of a cockatoo from Australia or New Zealand. Source:<a
+                    href="http://nzbirdsonline.org.nz/species/sulphur-crested-cockatoo"> New Zealand
+                    Birds Online</a>. </figcaption>
+            </figure>
+               
+        </section>
+    </body>
+</html>

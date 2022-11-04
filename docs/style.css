@@ -64,6 +64,7 @@ h1{
        display: flex;
        align-items: center;
        justify-content: space-between;
+       float: top;
     }
     .logo{
         width: 120px;

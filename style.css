@@ -3,7 +3,13 @@
     padding: 0;
     font-family: sans-serif;
 }
-
+.banner{
+    width:100px; 
+    height:100vh;
+    background-image: url(images/gcg.jpg);
+    background-size:cover;
+    background-position: center;
+    }
     .navbar{
      width: auto;   
        margin: auto;

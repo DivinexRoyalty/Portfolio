@@ -4,14 +4,14 @@
     font-family: sans-serif;
 }
 .banner{
-    width:100%; 
-    height:100vh;
-    background-image: url(images/gcg.jpg);
+    width: 100%; 
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)), url(images/gcg.jpg);
     background-size:cover;
     background-position: center;
     }
     .navbar{
-     width: auto;   
+     width: 85%;   
        margin: auto;
        padding:35px 0;
        display: flex;

@@ -193,4 +193,8 @@ img {
   opacity: 1;
 }
    
+.style {
+    
+display: block; margin-left: auto; margin-right: auto;
+   }
     

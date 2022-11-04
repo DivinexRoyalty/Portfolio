@@ -98,6 +98,18 @@
   box-sizing: border-box;
 }
 
+body {
+  font-family: Arial;
+  margin: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+img {
+  vertical-align: middle;
+}
 
 .container {
   position: relative;

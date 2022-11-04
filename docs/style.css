@@ -120,6 +120,15 @@ img {
   display: none;
 }
 
+div.mySlides img{ 
+max-width:1000px; 
+width:80%
+}
+
+div column img{
+width:100%
+}
+
 
 .cursor {
   cursor: pointer;
@@ -201,4 +210,5 @@ img {
   transform: translate(-50%, -50%);
   color: white;
 }
+    
     

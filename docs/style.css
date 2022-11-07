@@ -58,13 +58,12 @@ h1{
     
     
     .navbar{
-     width: 85%;   
-       margin: auto;
+     width: 85%;  
+      margin: auto;
        padding:35px 0;
        display: flex;
        align-items: center;
-       justify-content: space-between;
-       float: top;
+        justify-content: space-between;
     }
     .logo{
         width: 120px;
@@ -111,20 +110,7 @@ h1{
        font-weight:100;
        line-height: 25px;
    }
-   .button{
-       width: 200px;
-       padding: 15px 0;
-       text-align: center;
-       margin: 20px 10px;
-       border-radius: 35px;
-       font-weight: bold;
-       border: 2px solid #009688;
-       background: transparent;
-       color: #fff;
-       cursor: pointer;
-       position: relative;
-       overflow: hidden;
-   }
+  
    span{
        background: #009688;
        height: 100%;

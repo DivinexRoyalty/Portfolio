@@ -245,7 +245,10 @@ width:100%
 
 /*RESUME CSS*/
 
-
+section.timemap{
+     width: 80%;
+     margin: auto;
+}
 
 
 

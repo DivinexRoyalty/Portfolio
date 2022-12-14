@@ -332,3 +332,17 @@ section.timemap iframe{
 .show {display:block;}
 
 
+p.big {
+  line-height: 3.0;
+}
+
+
+p.small {
+  line-height: 2.0;
+}
+
+p.one {
+  word-spacing: -1px;
+}
+
+
